@@ -1,0 +1,189 @@
+﻿@model SchoolSystem.Web.Models.StudentViewModel
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Add Student List</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #007bff; /* Matches the blue color from the home page header */
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+
+            .navbar a {
+                text-decoration: none;
+                color: white;
+                background-color: #007bff; /* Matches the blue color from the home page button */
+                padding: 10px 20px;
+                border-radius: 5px;
+                margin: 0 10px;
+                font-size: 16px;
+            }
+
+                .navbar a:hover {
+                    background-color: #0056b3; /* Darker blue for hover effect */
+                }
+
+        .student-table {
+            width: 100%;
+            border-collapse: collapse;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            background-color: #fff; /* White background to match the section backgrounds */
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+            .student-table th, .student-table td {
+                padding: 12px;
+                text-align: left;
+                border-bottom: 1px solid #ddd;
+            }
+
+            .student-table th {
+                background-color: #007bff; /* Matches the blue button and header from the home page */
+                color: white;
+            }
+
+            .student-table tr:nth-child(even) {
+                background-color: #f2f2f2;
+            }
+
+            .student-table tr:hover {
+                background-color: #ddd;
+            }
+
+            .student-table td[colspan] {
+                text-align: center;
+                color: #666;
+            }
+
+        .add-student-button {
+            display: block;
+            width: 200px;
+            margin: 20px auto;
+            padding: 10px;
+            text-align: center;
+            color: white;
+            background-color: #007bff; /* Matches the blue color from the home page button */
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+        }
+
+            .add-student-button:hover {
+                background-color: #0056b3; /* Darker blue for hover effect */
+            }
+
+        .delete-link {
+            color: #dc3545; /* Red color for delete action */
+            cursor: pointer;
+            text-decoration: underline;
+        }
+
+            .delete-link:hover {
+                color: #c82333; /* Slightly darker red on hover */
+            }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="/ClassRoom/students/@Model.room.Id">Back</a> <!-- Button to navigate to the home page -->
+    </div>
+    <h1>add students to @Model.room.Name</h1>
+    <table class="student-table">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Phone Number</th>
+                <th>Parent Number</th>
+                <th>Address</th>
+                <th>Degree</th>
+                <th>Delete</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (Model.Students != null && Model.Students.Any())
+            {
+                @foreach (var student in Model.Students)
+                {
+                    <tr>
+                        <td>@student.Id</td>
+                        <td>@student.Name</td>
+                        <td>@student.PhoneNumber</td>
+                        <td>@student.ParentNumber</td>
+                        <td>@student.Address</td>
+                        <td>@student.Degree</td>
+                        @if (Model.room.Students.Any(s => s.Id == student.Id))
+                        {
+                            <td class="delete-link" onclick="deleteStudent('@student.Id', '@Model.room.Id')">Delete</td>
+                        }
+                        else
+                        {
+                            <td class="delete-link" onclick="addStudent('@student.Id', '@Model.room.Id')">Add</td>
+                        }
+
+                    </tr>
+                }
+            }
+            else
+            {
+                <tr>
+                    <td colspan="7">No students found.</td>
+                </tr>
+            }
+</tbody>
+</table>
+<script>
+        function deleteStudent(studentId, roomId) {
+            if (confirm('Are you sure you want to delete this student ?')) {
+                fetch(`/ClassRoom/deleteteacher/${studentId}/${roomId}`, {
+                    method: 'DELETE',
+                })
+                    .then(response => {
+                        if (response.ok) {
+                            alert('Student deleted successfully.');
+                            window.location.reload(); // Refresh the page or update the UI accordingly
+                        } else {
+                            alert('Failed to delete the student.');
+                        }
+                    })
+                    .catch(error => console.error('Error:', error));
+            }
+        }
+
+        function addStudent(studentId, roomId) {
+            if (confirm('Are you sure you want to delete this student?')) {
+                fetch(`/ClassRoom/addstudenttoclass/${studentId}/${roomId}`, {
+                    method: 'POST',
+                })
+                    .then(response => {
+                        if (response.ok) {
+                            alert('Student deleted successfully.');
+                            window.location.reload(); // Refresh the page or update the UI accordingly
+                        } else {
+                            alert('Failed to delete the student.');
+                        }
+                    })
+                    .catch(error => console.error('Error:', error));
+            }
+        }
+</script>
+</body>
+</html>

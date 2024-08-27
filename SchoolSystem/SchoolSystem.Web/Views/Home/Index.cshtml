@@ -1,0 +1,111 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Management System</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>School Management System</h1>
+        </header>
+        <div class="sections">
+            <div class="section">
+                <h2>Students</h2>
+                <p>Manage student information and records.</p>
+                <a href="/student/index" class="btn">Go to Students</a>
+            </div>
+            <div class="section">
+                <h2>Teachers</h2>
+                <p>Manage teacher information and records.</p>
+                <a href="/teacher/index" class="btn">Go to Teachers</a>
+            </div>
+            <div class="section">
+                <h2>Classes</h2>
+                <p>Manage class schedules and assignments.</p>
+                <a href="/classRoom/index" class="btn">Go to Classes</a>
+            </div>
+        </div>
+    </div>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #007bff;
+    color: #fff;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+.sections {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.section {
+    flex: 1;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 0 10px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.section:hover {
+    transform: translateY(-5px);
+}
+
+.section h2 {
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.section p {
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #007bff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+
+
+    .section {
+        margin-bottom: 20px;
+    }
+}
+
+    </style>
+</body>
+</html>

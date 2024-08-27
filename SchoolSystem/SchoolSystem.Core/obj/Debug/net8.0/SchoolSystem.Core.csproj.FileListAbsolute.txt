@@ -1,0 +1,11 @@
+D:\advak\SchoolSystem\SchoolSystem.Core\bin\Debug\net8.0\SchoolSystem.Core.deps.json
+D:\advak\SchoolSystem\SchoolSystem.Core\bin\Debug\net8.0\SchoolSystem.Core.dll
+D:\advak\SchoolSystem\SchoolSystem.Core\bin\Debug\net8.0\SchoolSystem.Core.pdb
+D:\advak\SchoolSystem\SchoolSystem.Core\obj\Debug\net8.0\SchoolSystem.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\advak\SchoolSystem\SchoolSystem.Core\obj\Debug\net8.0\SchoolSystem.Core.AssemblyInfoInputs.cache
+D:\advak\SchoolSystem\SchoolSystem.Core\obj\Debug\net8.0\SchoolSystem.Core.AssemblyInfo.cs
+D:\advak\SchoolSystem\SchoolSystem.Core\obj\Debug\net8.0\SchoolSystem.Core.csproj.CoreCompileInputs.cache
+D:\advak\SchoolSystem\SchoolSystem.Core\obj\Debug\net8.0\SchoolSystem.Core.dll
+D:\advak\SchoolSystem\SchoolSystem.Core\obj\Debug\net8.0\refint\SchoolSystem.Core.dll
+D:\advak\SchoolSystem\SchoolSystem.Core\obj\Debug\net8.0\SchoolSystem.Core.pdb
+D:\advak\SchoolSystem\SchoolSystem.Core\obj\Debug\net8.0\ref\SchoolSystem.Core.dll

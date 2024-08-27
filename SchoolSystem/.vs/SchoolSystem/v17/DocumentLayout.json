@@ -1,0 +1,665 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\advak\\SchoolSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2402993F-5AD2-4752-B0D1-95A4EEF31144}|SchoolSystem.Application\\SchoolSystem.Application.csproj|d:\\advak\\schoolsystem\\schoolsystem.application\\services\\classservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2402993F-5AD2-4752-B0D1-95A4EEF31144}|SchoolSystem.Application\\SchoolSystem.Application.csproj|solutionrelative:schoolsystem.application\\services\\classservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12FA9630-EC15-4CBC-9350-A92684930A2C}|SchoolSystem.Web\\SchoolSystem.Web.csproj|d:\\advak\\schoolsystem\\schoolsystem.web\\controllers\\teachercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12FA9630-EC15-4CBC-9350-A92684930A2C}|SchoolSystem.Web\\SchoolSystem.Web.csproj|solutionrelative:schoolsystem.web\\controllers\\teachercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12FA9630-EC15-4CBC-9350-A92684930A2C}|SchoolSystem.Web\\SchoolSystem.Web.csproj|d:\\advak\\schoolsystem\\schoolsystem.web\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12FA9630-EC15-4CBC-9350-A92684930A2C}|SchoolSystem.Web\\SchoolSystem.Web.csproj|solutionrelative:schoolsystem.web\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12FA9630-EC15-4CBC-9350-A92684930A2C}|SchoolSystem.Web\\SchoolSystem.Web.csproj|d:\\advak\\schoolsystem\\schoolsystem.web\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12FA9630-EC15-4CBC-9350-A92684930A2C}|SchoolSystem.Web\\SchoolSystem.Web.csproj|solutionrelative:schoolsystem.web\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12FA9630-EC15-4CBC-9350-A92684930A2C}|SchoolSystem.Web\\SchoolSystem.Web.csproj|d:\\advak\\schoolsystem\\schoolsystem.web\\controllers\\classroomcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12FA9630-EC15-4CBC-9350-A92684930A2C}|SchoolSystem.Web\\SchoolSystem.Web.csproj|solutionrelative:schoolsystem.web\\controllers\\classroomcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1FDB9B6-DF1A-44BF-ABC7-C2744B003B7E}|SchoolSystem.Core\\SchoolSystem.Core.csproj|d:\\advak\\schoolsystem\\schoolsystem.core\\interfaces\\iclassroomrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1FDB9B6-DF1A-44BF-ABC7-C2744B003B7E}|SchoolSystem.Core\\SchoolSystem.Core.csproj|solutionrelative:schoolsystem.core\\interfaces\\iclassroomrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67975105-CD39-4266-ADDF-30D7CA58F4AC}|SchoolSystem.Infrastructure\\SchoolSystem.Infrastructure.csproj|d:\\advak\\schoolsystem\\schoolsystem.infrastructure\\repositories\\classroomrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67975105-CD39-4266-ADDF-30D7CA58F4AC}|SchoolSystem.Infrastructure\\SchoolSystem.Infrastructure.csproj|solutionrelative:schoolsystem.infrastructure\\repositories\\classroomrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1FDB9B6-DF1A-44BF-ABC7-C2744B003B7E}|SchoolSystem.Core\\SchoolSystem.Core.csproj|d:\\advak\\schoolsystem\\schoolsystem.core\\entities\\classroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1FDB9B6-DF1A-44BF-ABC7-C2744B003B7E}|SchoolSystem.Core\\SchoolSystem.Core.csproj|solutionrelative:schoolsystem.core\\entities\\classroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12FA9630-EC15-4CBC-9350-A92684930A2C}|SchoolSystem.Web\\SchoolSystem.Web.csproj|d:\\advak\\schoolsystem\\schoolsystem.web\\views\\teacher\\addteacher.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{12FA9630-EC15-4CBC-9350-A92684930A2C}|SchoolSystem.Web\\SchoolSystem.Web.csproj|solutionrelative:schoolsystem.web\\views\\teacher\\addteacher.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12FA9630-EC15-4CBC-9350-A92684930A2C}|SchoolSystem.Web\\SchoolSystem.Web.csproj|d:\\advak\\schoolsystem\\schoolsystem.web\\views\\classroom\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{12FA9630-EC15-4CBC-9350-A92684930A2C}|SchoolSystem.Web\\SchoolSystem.Web.csproj|solutionrelative:schoolsystem.web\\views\\classroom\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67975105-CD39-4266-ADDF-30D7CA58F4AC}|SchoolSystem.Infrastructure\\SchoolSystem.Infrastructure.csproj|d:\\advak\\schoolsystem\\schoolsystem.infrastructure\\repositories\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67975105-CD39-4266-ADDF-30D7CA58F4AC}|SchoolSystem.Infrastructure\\SchoolSystem.Infrastructure.csproj|solutionrelative:schoolsystem.infrastructure\\repositories\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67975105-CD39-4266-ADDF-30D7CA58F4AC}|SchoolSystem.Infrastructure\\SchoolSystem.Infrastructure.csproj|d:\\advak\\schoolsystem\\schoolsystem.infrastructure\\design\\schooldbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67975105-CD39-4266-ADDF-30D7CA58F4AC}|SchoolSystem.Infrastructure\\SchoolSystem.Infrastructure.csproj|solutionrelative:schoolsystem.infrastructure\\design\\schooldbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1FDB9B6-DF1A-44BF-ABC7-C2744B003B7E}|SchoolSystem.Core\\SchoolSystem.Core.csproj|d:\\advak\\schoolsystem\\schoolsystem.core\\entities\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1FDB9B6-DF1A-44BF-ABC7-C2744B003B7E}|SchoolSystem.Core\\SchoolSystem.Core.csproj|solutionrelative:schoolsystem.core\\entities\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12FA9630-EC15-4CBC-9350-A92684930A2C}|SchoolSystem.Web\\SchoolSystem.Web.csproj|d:\\advak\\schoolsystem\\schoolsystem.web\\models\\classroomviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12FA9630-EC15-4CBC-9350-A92684930A2C}|SchoolSystem.Web\\SchoolSystem.Web.csproj|solutionrelative:schoolsystem.web\\models\\classroomviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12FA9630-EC15-4CBC-9350-A92684930A2C}|SchoolSystem.Web\\SchoolSystem.Web.csproj|d:\\advak\\schoolsystem\\schoolsystem.web\\views\\classroom\\addstudentstoclass.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{12FA9630-EC15-4CBC-9350-A92684930A2C}|SchoolSystem.Web\\SchoolSystem.Web.csproj|solutionrelative:schoolsystem.web\\views\\classroom\\addstudentstoclass.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12FA9630-EC15-4CBC-9350-A92684930A2C}|SchoolSystem.Web\\SchoolSystem.Web.csproj|d:\\advak\\schoolsystem\\schoolsystem.web\\views\\classroom\\addteacher.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{12FA9630-EC15-4CBC-9350-A92684930A2C}|SchoolSystem.Web\\SchoolSystem.Web.csproj|solutionrelative:schoolsystem.web\\views\\classroom\\addteacher.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12FA9630-EC15-4CBC-9350-A92684930A2C}|SchoolSystem.Web\\SchoolSystem.Web.csproj|d:\\advak\\schoolsystem\\schoolsystem.web\\views\\classroom\\teachers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{12FA9630-EC15-4CBC-9350-A92684930A2C}|SchoolSystem.Web\\SchoolSystem.Web.csproj|solutionrelative:schoolsystem.web\\views\\classroom\\teachers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12FA9630-EC15-4CBC-9350-A92684930A2C}|SchoolSystem.Web\\SchoolSystem.Web.csproj|d:\\advak\\schoolsystem\\schoolsystem.web\\views\\classroom\\students.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{12FA9630-EC15-4CBC-9350-A92684930A2C}|SchoolSystem.Web\\SchoolSystem.Web.csproj|solutionrelative:schoolsystem.web\\views\\classroom\\students.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12FA9630-EC15-4CBC-9350-A92684930A2C}|SchoolSystem.Web\\SchoolSystem.Web.csproj|d:\\advak\\schoolsystem\\schoolsystem.web\\models\\teacherviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12FA9630-EC15-4CBC-9350-A92684930A2C}|SchoolSystem.Web\\SchoolSystem.Web.csproj|solutionrelative:schoolsystem.web\\models\\teacherviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67975105-CD39-4266-ADDF-30D7CA58F4AC}|SchoolSystem.Infrastructure\\SchoolSystem.Infrastructure.csproj|d:\\advak\\schoolsystem\\schoolsystem.infrastructure\\repositories\\teacherrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67975105-CD39-4266-ADDF-30D7CA58F4AC}|SchoolSystem.Infrastructure\\SchoolSystem.Infrastructure.csproj|solutionrelative:schoolsystem.infrastructure\\repositories\\teacherrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1FDB9B6-DF1A-44BF-ABC7-C2744B003B7E}|SchoolSystem.Core\\SchoolSystem.Core.csproj|d:\\advak\\schoolsystem\\schoolsystem.core\\entities\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1FDB9B6-DF1A-44BF-ABC7-C2744B003B7E}|SchoolSystem.Core\\SchoolSystem.Core.csproj|solutionrelative:schoolsystem.core\\entities\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2402993F-5AD2-4752-B0D1-95A4EEF31144}|SchoolSystem.Application\\SchoolSystem.Application.csproj|d:\\advak\\schoolsystem\\schoolsystem.application\\services\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2402993F-5AD2-4752-B0D1-95A4EEF31144}|SchoolSystem.Application\\SchoolSystem.Application.csproj|solutionrelative:schoolsystem.application\\services\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1FDB9B6-DF1A-44BF-ABC7-C2744B003B7E}|SchoolSystem.Core\\SchoolSystem.Core.csproj|d:\\advak\\schoolsystem\\schoolsystem.core\\interfaces\\iteacherrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1FDB9B6-DF1A-44BF-ABC7-C2744B003B7E}|SchoolSystem.Core\\SchoolSystem.Core.csproj|solutionrelative:schoolsystem.core\\interfaces\\iteacherrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12FA9630-EC15-4CBC-9350-A92684930A2C}|SchoolSystem.Web\\SchoolSystem.Web.csproj|d:\\advak\\schoolsystem\\schoolsystem.web\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{12FA9630-EC15-4CBC-9350-A92684930A2C}|SchoolSystem.Web\\SchoolSystem.Web.csproj|solutionrelative:schoolsystem.web\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12FA9630-EC15-4CBC-9350-A92684930A2C}|SchoolSystem.Web\\SchoolSystem.Web.csproj|d:\\advak\\schoolsystem\\schoolsystem.web\\views\\teacher\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{12FA9630-EC15-4CBC-9350-A92684930A2C}|SchoolSystem.Web\\SchoolSystem.Web.csproj|solutionrelative:schoolsystem.web\\views\\teacher\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12FA9630-EC15-4CBC-9350-A92684930A2C}|SchoolSystem.Web\\SchoolSystem.Web.csproj|d:\\advak\\schoolsystem\\schoolsystem.web\\views\\classroom\\addclass.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{12FA9630-EC15-4CBC-9350-A92684930A2C}|SchoolSystem.Web\\SchoolSystem.Web.csproj|solutionrelative:schoolsystem.web\\views\\classroom\\addclass.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12FA9630-EC15-4CBC-9350-A92684930A2C}|SchoolSystem.Web\\SchoolSystem.Web.csproj|d:\\advak\\schoolsystem\\schoolsystem.web\\views\\student\\addstudent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{12FA9630-EC15-4CBC-9350-A92684930A2C}|SchoolSystem.Web\\SchoolSystem.Web.csproj|solutionrelative:schoolsystem.web\\views\\student\\addstudent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2402993F-5AD2-4752-B0D1-95A4EEF31144}|SchoolSystem.Application\\SchoolSystem.Application.csproj|d:\\advak\\schoolsystem\\schoolsystem.application\\services\\teacherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2402993F-5AD2-4752-B0D1-95A4EEF31144}|SchoolSystem.Application\\SchoolSystem.Application.csproj|solutionrelative:schoolsystem.application\\services\\teacherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12FA9630-EC15-4CBC-9350-A92684930A2C}|SchoolSystem.Web\\SchoolSystem.Web.csproj|d:\\advak\\schoolsystem\\schoolsystem.web\\models\\studentviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12FA9630-EC15-4CBC-9350-A92684930A2C}|SchoolSystem.Web\\SchoolSystem.Web.csproj|solutionrelative:schoolsystem.web\\models\\studentviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12FA9630-EC15-4CBC-9350-A92684930A2C}|SchoolSystem.Web\\SchoolSystem.Web.csproj|d:\\advak\\schoolsystem\\schoolsystem.web\\views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{12FA9630-EC15-4CBC-9350-A92684930A2C}|SchoolSystem.Web\\SchoolSystem.Web.csproj|solutionrelative:schoolsystem.web\\views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12FA9630-EC15-4CBC-9350-A92684930A2C}|SchoolSystem.Web\\SchoolSystem.Web.csproj|d:\\advak\\schoolsystem\\schoolsystem.web\\models\\studentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12FA9630-EC15-4CBC-9350-A92684930A2C}|SchoolSystem.Web\\SchoolSystem.Web.csproj|solutionrelative:schoolsystem.web\\models\\studentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12FA9630-EC15-4CBC-9350-A92684930A2C}|SchoolSystem.Web\\SchoolSystem.Web.csproj|d:\\advak\\schoolsystem\\schoolsystem.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{12FA9630-EC15-4CBC-9350-A92684930A2C}|SchoolSystem.Web\\SchoolSystem.Web.csproj|solutionrelative:schoolsystem.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67975105-CD39-4266-ADDF-30D7CA58F4AC}|SchoolSystem.Infrastructure\\SchoolSystem.Infrastructure.csproj|d:\\advak\\schoolsystem\\schoolsystem.infrastructure\\schoolsystem.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{67975105-CD39-4266-ADDF-30D7CA58F4AC}|SchoolSystem.Infrastructure\\SchoolSystem.Infrastructure.csproj|solutionrelative:schoolsystem.infrastructure\\schoolsystem.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67975105-CD39-4266-ADDF-30D7CA58F4AC}|SchoolSystem.Infrastructure\\SchoolSystem.Infrastructure.csproj|d:\\advak\\schoolsystem\\schoolsystem.infrastructure\\schooldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67975105-CD39-4266-ADDF-30D7CA58F4AC}|SchoolSystem.Infrastructure\\SchoolSystem.Infrastructure.csproj|solutionrelative:schoolsystem.infrastructure\\schooldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2402993F-5AD2-4752-B0D1-95A4EEF31144}|SchoolSystem.Application\\SchoolSystem.Application.csproj|d:\\advak\\schoolsystem\\schoolsystem.application\\schoolsystem.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{2402993F-5AD2-4752-B0D1-95A4EEF31144}|SchoolSystem.Application\\SchoolSystem.Application.csproj|solutionrelative:schoolsystem.application\\schoolsystem.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12FA9630-EC15-4CBC-9350-A92684930A2C}|SchoolSystem.Web\\SchoolSystem.Web.csproj|d:\\advak\\schoolsystem\\schoolsystem.web\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{12FA9630-EC15-4CBC-9350-A92684930A2C}|SchoolSystem.Web\\SchoolSystem.Web.csproj|solutionrelative:schoolsystem.web\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12FA9630-EC15-4CBC-9350-A92684930A2C}|SchoolSystem.Web\\SchoolSystem.Web.csproj|d:\\advak\\schoolsystem\\schoolsystem.web\\schoolsystem.web.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{12FA9630-EC15-4CBC-9350-A92684930A2C}|SchoolSystem.Web\\SchoolSystem.Web.csproj|solutionrelative:schoolsystem.web\\schoolsystem.web.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67975105-CD39-4266-ADDF-30D7CA58F4AC}|SchoolSystem.Infrastructure\\SchoolSystem.Infrastructure.csproj|d:\\advak\\schoolsystem\\schoolsystem.infrastructure\\migrations\\20240812125836_initialmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67975105-CD39-4266-ADDF-30D7CA58F4AC}|SchoolSystem.Infrastructure\\SchoolSystem.Infrastructure.csproj|solutionrelative:schoolsystem.infrastructure\\migrations\\20240812125836_initialmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67975105-CD39-4266-ADDF-30D7CA58F4AC}|SchoolSystem.Infrastructure\\SchoolSystem.Infrastructure.csproj|d:\\advak\\schoolsystem\\schoolsystem.infrastructure\\migrations\\20240820122735_migration1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67975105-CD39-4266-ADDF-30D7CA58F4AC}|SchoolSystem.Infrastructure\\SchoolSystem.Infrastructure.csproj|solutionrelative:schoolsystem.infrastructure\\migrations\\20240820122735_migration1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67975105-CD39-4266-ADDF-30D7CA58F4AC}|SchoolSystem.Infrastructure\\SchoolSystem.Infrastructure.csproj|d:\\advak\\schoolsystem\\schoolsystem.infrastructure\\migrations\\20240822073327_two.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67975105-CD39-4266-ADDF-30D7CA58F4AC}|SchoolSystem.Infrastructure\\SchoolSystem.Infrastructure.csproj|solutionrelative:schoolsystem.infrastructure\\migrations\\20240822073327_two.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IClassRoomRepository.cs",
+              "DocumentMoniker": "D:\\advak\\SchoolSystem\\SchoolSystem.Core\\Interfaces\\IClassRoomRepository.cs",
+              "RelativeDocumentMoniker": "SchoolSystem.Core\\Interfaces\\IClassRoomRepository.cs",
+              "ToolTip": "D:\\advak\\SchoolSystem\\SchoolSystem.Core\\Interfaces\\IClassRoomRepository.cs",
+              "RelativeToolTip": "SchoolSystem.Core\\Interfaces\\IClassRoomRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T15:24:13.837Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ClassService.cs",
+              "DocumentMoniker": "D:\\advak\\SchoolSystem\\SchoolSystem.Application\\Services\\ClassService.cs",
+              "RelativeDocumentMoniker": "SchoolSystem.Application\\Services\\ClassService.cs",
+              "ToolTip": "D:\\advak\\SchoolSystem\\SchoolSystem.Application\\Services\\ClassService.cs",
+              "RelativeToolTip": "SchoolSystem.Application\\Services\\ClassService.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T16:05:49.711Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ClassRoom.cs",
+              "DocumentMoniker": "D:\\advak\\SchoolSystem\\SchoolSystem.Core\\Entities\\ClassRoom.cs",
+              "RelativeDocumentMoniker": "SchoolSystem.Core\\Entities\\ClassRoom.cs",
+              "ToolTip": "D:\\advak\\SchoolSystem\\SchoolSystem.Core\\Entities\\ClassRoom.cs",
+              "RelativeToolTip": "SchoolSystem.Core\\Entities\\ClassRoom.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAuwBoAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T14:11:25.272Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ClassRoomRepository.cs",
+              "DocumentMoniker": "D:\\advak\\SchoolSystem\\SchoolSystem.Infrastructure\\Repositories\\ClassRoomRepository.cs",
+              "RelativeDocumentMoniker": "SchoolSystem.Infrastructure\\Repositories\\ClassRoomRepository.cs",
+              "ToolTip": "D:\\advak\\SchoolSystem\\SchoolSystem.Infrastructure\\Repositories\\ClassRoomRepository.cs",
+              "RelativeToolTip": "SchoolSystem.Infrastructure\\Repositories\\ClassRoomRepository.cs",
+              "ViewState": "AQIAAHcAAAAAAAAAAAAUwIwAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T15:30:39.91Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ClassRoomController.cs",
+              "DocumentMoniker": "D:\\advak\\SchoolSystem\\SchoolSystem.Web\\Controllers\\ClassRoomController.cs",
+              "RelativeDocumentMoniker": "SchoolSystem.Web\\Controllers\\ClassRoomController.cs",
+              "ToolTip": "D:\\advak\\SchoolSystem\\SchoolSystem.Web\\Controllers\\ClassRoomController.cs",
+              "RelativeToolTip": "SchoolSystem.Web\\Controllers\\ClassRoomController.cs",
+              "ViewState": "AQIAADQAAAAAAAAAAAAgwBoAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-18T11:37:09.432Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\advak\\SchoolSystem\\SchoolSystem.Web\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "SchoolSystem.Web\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\advak\\SchoolSystem\\SchoolSystem.Web\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "SchoolSystem.Web\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T13:02:26.894Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "D:\\advak\\SchoolSystem\\SchoolSystem.Web\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "SchoolSystem.Web\\Controllers\\StudentController.cs",
+              "ToolTip": "D:\\advak\\SchoolSystem\\SchoolSystem.Web\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "SchoolSystem.Web\\Controllers\\StudentController.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAgwBIAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T12:08:37.836Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TeacherController.cs",
+              "DocumentMoniker": "D:\\advak\\SchoolSystem\\SchoolSystem.Web\\Controllers\\TeacherController.cs",
+              "RelativeDocumentMoniker": "SchoolSystem.Web\\Controllers\\TeacherController.cs",
+              "ToolTip": "D:\\advak\\SchoolSystem\\SchoolSystem.Web\\Controllers\\TeacherController.cs",
+              "RelativeToolTip": "SchoolSystem.Web\\Controllers\\TeacherController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACoAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T07:08:36.764Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AddTeacher.cshtml",
+              "DocumentMoniker": "D:\\advak\\SchoolSystem\\SchoolSystem.Web\\Views\\Teacher\\AddTeacher.cshtml",
+              "RelativeDocumentMoniker": "SchoolSystem.Web\\Views\\Teacher\\AddTeacher.cshtml",
+              "ToolTip": "D:\\advak\\SchoolSystem\\SchoolSystem.Web\\Views\\Teacher\\AddTeacher.cshtml",
+              "RelativeToolTip": "SchoolSystem.Web\\Views\\Teacher\\AddTeacher.cshtml",
+              "ViewState": "AQIAADMAAAAAAAAAAAAuwHwAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-22T08:45:53.743Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\advak\\SchoolSystem\\SchoolSystem.Web\\Views\\ClassRoom\\Index.cshtml",
+              "RelativeDocumentMoniker": "SchoolSystem.Web\\Views\\ClassRoom\\Index.cshtml",
+              "ToolTip": "D:\\advak\\SchoolSystem\\SchoolSystem.Web\\Views\\ClassRoom\\Index.cshtml",
+              "RelativeToolTip": "SchoolSystem.Web\\Views\\ClassRoom\\Index.cshtml",
+              "ViewState": "AQIAAH0AAAAAAAAAAAAiwJYAAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-18T11:37:40.963Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "StudentRepository.cs",
+              "DocumentMoniker": "D:\\advak\\SchoolSystem\\SchoolSystem.Infrastructure\\Repositories\\StudentRepository.cs",
+              "RelativeDocumentMoniker": "SchoolSystem.Infrastructure\\Repositories\\StudentRepository.cs",
+              "ToolTip": "D:\\advak\\SchoolSystem\\SchoolSystem.Infrastructure\\Repositories\\StudentRepository.cs",
+              "RelativeToolTip": "SchoolSystem.Infrastructure\\Repositories\\StudentRepository.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAzwAYAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T11:55:03.4Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SchoolDbContextFactory.cs",
+              "DocumentMoniker": "D:\\advak\\SchoolSystem\\SchoolSystem.Infrastructure\\Design\\SchoolDbContextFactory.cs",
+              "RelativeDocumentMoniker": "SchoolSystem.Infrastructure\\Design\\SchoolDbContextFactory.cs",
+              "ToolTip": "D:\\advak\\SchoolSystem\\SchoolSystem.Infrastructure\\Design\\SchoolDbContextFactory.cs",
+              "RelativeToolTip": "SchoolSystem.Infrastructure\\Design\\SchoolDbContextFactory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T13:15:07.437Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Teacher.cs",
+              "DocumentMoniker": "D:\\advak\\SchoolSystem\\SchoolSystem.Core\\Entities\\Teacher.cs",
+              "RelativeDocumentMoniker": "SchoolSystem.Core\\Entities\\Teacher.cs",
+              "ToolTip": "D:\\advak\\SchoolSystem\\SchoolSystem.Core\\Entities\\Teacher.cs",
+              "RelativeToolTip": "SchoolSystem.Core\\Entities\\Teacher.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAzwCAAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T14:11:17.153Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ClassRoomViewModel.cs",
+              "DocumentMoniker": "D:\\advak\\SchoolSystem\\SchoolSystem.Web\\Models\\ClassRoomViewModel.cs",
+              "RelativeDocumentMoniker": "SchoolSystem.Web\\Models\\ClassRoomViewModel.cs",
+              "ToolTip": "D:\\advak\\SchoolSystem\\SchoolSystem.Web\\Models\\ClassRoomViewModel.cs",
+              "RelativeToolTip": "SchoolSystem.Web\\Models\\ClassRoomViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-18T11:40:08.662Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AddStudentsToClass.cshtml",
+              "DocumentMoniker": "D:\\advak\\SchoolSystem\\SchoolSystem.Web\\Views\\ClassRoom\\AddStudentsToClass.cshtml",
+              "RelativeDocumentMoniker": "SchoolSystem.Web\\Views\\ClassRoom\\AddStudentsToClass.cshtml",
+              "ToolTip": "D:\\advak\\SchoolSystem\\SchoolSystem.Web\\Views\\ClassRoom\\AddStudentsToClass.cshtml",
+              "RelativeToolTip": "SchoolSystem.Web\\Views\\ClassRoom\\AddStudentsToClass.cshtml",
+              "ViewState": "AQIAAF0AAAAAAAAAAAAAAGoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-19T12:24:00.05Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AddTeacher.cshtml",
+              "DocumentMoniker": "D:\\advak\\SchoolSystem\\SchoolSystem.Web\\Views\\ClassRoom\\AddTeacher.cshtml",
+              "RelativeDocumentMoniker": "SchoolSystem.Web\\Views\\ClassRoom\\AddTeacher.cshtml",
+              "ToolTip": "D:\\advak\\SchoolSystem\\SchoolSystem.Web\\Views\\ClassRoom\\AddTeacher.cshtml",
+              "RelativeToolTip": "SchoolSystem.Web\\Views\\ClassRoom\\AddTeacher.cshtml",
+              "ViewState": "AQIAAH0AAAAAAAAAAAAAAIIAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-22T09:33:11.983Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "TeacherViewModel.cs",
+              "DocumentMoniker": "D:\\advak\\SchoolSystem\\SchoolSystem.Web\\Models\\TeacherViewModel.cs",
+              "RelativeDocumentMoniker": "SchoolSystem.Web\\Models\\TeacherViewModel.cs",
+              "ToolTip": "D:\\advak\\SchoolSystem\\SchoolSystem.Web\\Models\\TeacherViewModel.cs",
+              "RelativeToolTip": "SchoolSystem.Web\\Models\\TeacherViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T07:09:36.087Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Students.cshtml",
+              "DocumentMoniker": "D:\\advak\\SchoolSystem\\SchoolSystem.Web\\Views\\ClassRoom\\Students.cshtml",
+              "RelativeDocumentMoniker": "SchoolSystem.Web\\Views\\ClassRoom\\Students.cshtml",
+              "ToolTip": "D:\\advak\\SchoolSystem\\SchoolSystem.Web\\Views\\ClassRoom\\Students.cshtml",
+              "RelativeToolTip": "SchoolSystem.Web\\Views\\ClassRoom\\Students.cshtml",
+              "ViewState": "AQIAAI4AAAAAAAAAAAAuwGwAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-19T10:00:07.311Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Teachers.cshtml",
+              "DocumentMoniker": "D:\\advak\\SchoolSystem\\SchoolSystem.Web\\Views\\ClassRoom\\Teachers.cshtml",
+              "RelativeDocumentMoniker": "SchoolSystem.Web\\Views\\ClassRoom\\Teachers.cshtml",
+              "ToolTip": "D:\\advak\\SchoolSystem\\SchoolSystem.Web\\Views\\ClassRoom\\Teachers.cshtml",
+              "RelativeToolTip": "SchoolSystem.Web\\Views\\ClassRoom\\Teachers.cshtml",
+              "ViewState": "AQIAAIoAAAAAAAAAAAAAAJAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-22T09:14:25.399Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "TeacherRepository.cs",
+              "DocumentMoniker": "D:\\advak\\SchoolSystem\\SchoolSystem.Infrastructure\\Repositories\\TeacherRepository.cs",
+              "RelativeDocumentMoniker": "SchoolSystem.Infrastructure\\Repositories\\TeacherRepository.cs",
+              "ToolTip": "D:\\advak\\SchoolSystem\\SchoolSystem.Infrastructure\\Repositories\\TeacherRepository.cs",
+              "RelativeToolTip": "SchoolSystem.Infrastructure\\Repositories\\TeacherRepository.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAYwCcAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T11:20:09.96Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ITeacherRepository.cs",
+              "DocumentMoniker": "D:\\advak\\SchoolSystem\\SchoolSystem.Core\\Interfaces\\ITeacherRepository.cs",
+              "RelativeDocumentMoniker": "SchoolSystem.Core\\Interfaces\\ITeacherRepository.cs",
+              "ToolTip": "D:\\advak\\SchoolSystem\\SchoolSystem.Core\\Interfaces\\ITeacherRepository.cs",
+              "RelativeToolTip": "SchoolSystem.Core\\Interfaces\\ITeacherRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T11:17:19.781Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Student.cs",
+              "DocumentMoniker": "D:\\advak\\SchoolSystem\\SchoolSystem.Core\\Entities\\Student.cs",
+              "RelativeDocumentMoniker": "SchoolSystem.Core\\Entities\\Student.cs",
+              "ToolTip": "D:\\advak\\SchoolSystem\\SchoolSystem.Core\\Entities\\Student.cs",
+              "RelativeToolTip": "SchoolSystem.Core\\Entities\\Student.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAwwB8AAABjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T14:11:08.222Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "StudentService.cs",
+              "DocumentMoniker": "D:\\advak\\SchoolSystem\\SchoolSystem.Application\\Services\\StudentService.cs",
+              "RelativeDocumentMoniker": "SchoolSystem.Application\\Services\\StudentService.cs",
+              "ToolTip": "D:\\advak\\SchoolSystem\\SchoolSystem.Application\\Services\\StudentService.cs",
+              "RelativeToolTip": "SchoolSystem.Application\\Services\\StudentService.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAQwBsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T11:45:08.081Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\advak\\SchoolSystem\\SchoolSystem.Web\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "SchoolSystem.Web\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\advak\\SchoolSystem\\SchoolSystem.Web\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "SchoolSystem.Web\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-14T13:02:49.936Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\advak\\SchoolSystem\\SchoolSystem.Web\\Views\\Teacher\\Index.cshtml",
+              "RelativeDocumentMoniker": "SchoolSystem.Web\\Views\\Teacher\\Index.cshtml",
+              "ToolTip": "D:\\advak\\SchoolSystem\\SchoolSystem.Web\\Views\\Teacher\\Index.cshtml",
+              "RelativeToolTip": "SchoolSystem.Web\\Views\\Teacher\\Index.cshtml",
+              "ViewState": "AQIAAIgAAAAAAAAAAAAuwKIAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-22T07:10:41.918Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "AddClass.cshtml",
+              "DocumentMoniker": "D:\\advak\\SchoolSystem\\SchoolSystem.Web\\Views\\ClassRoom\\AddClass.cshtml",
+              "RelativeDocumentMoniker": "SchoolSystem.Web\\Views\\ClassRoom\\AddClass.cshtml",
+              "ToolTip": "D:\\advak\\SchoolSystem\\SchoolSystem.Web\\Views\\ClassRoom\\AddClass.cshtml",
+              "RelativeToolTip": "SchoolSystem.Web\\Views\\ClassRoom\\AddClass.cshtml",
+              "ViewState": "AQIAAGAAAAAAAAAAAAAAAGMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-18T12:35:48.695Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "TeacherService.cs",
+              "DocumentMoniker": "D:\\advak\\SchoolSystem\\SchoolSystem.Application\\Services\\TeacherService.cs",
+              "RelativeDocumentMoniker": "SchoolSystem.Application\\Services\\TeacherService.cs",
+              "ToolTip": "D:\\advak\\SchoolSystem\\SchoolSystem.Application\\Services\\TeacherService.cs",
+              "RelativeToolTip": "SchoolSystem.Application\\Services\\TeacherService.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAUwBkAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T13:13:59.26Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "AddStudent.cshtml",
+              "DocumentMoniker": "D:\\advak\\SchoolSystem\\SchoolSystem.Web\\Views\\Student\\AddStudent.cshtml",
+              "RelativeDocumentMoniker": "SchoolSystem.Web\\Views\\Student\\AddStudent.cshtml",
+              "ToolTip": "D:\\advak\\SchoolSystem\\SchoolSystem.Web\\Views\\Student\\AddStudent.cshtml",
+              "RelativeToolTip": "SchoolSystem.Web\\Views\\Student\\AddStudent.cshtml",
+              "ViewState": "AQIAAHsAAAAAAAAAAAAuwJUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-13T12:12:47.128Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "20240822073327_two.cs",
+              "DocumentMoniker": "D:\\advak\\SchoolSystem\\SchoolSystem.Infrastructure\\Migrations\\20240822073327_two.cs",
+              "RelativeDocumentMoniker": "SchoolSystem.Infrastructure\\Migrations\\20240822073327_two.cs",
+              "ToolTip": "D:\\advak\\SchoolSystem\\SchoolSystem.Infrastructure\\Migrations\\20240822073327_two.cs",
+              "RelativeToolTip": "SchoolSystem.Infrastructure\\Migrations\\20240822073327_two.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T07:33:27.566Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "StudentViewModel.cs",
+              "DocumentMoniker": "D:\\advak\\SchoolSystem\\SchoolSystem.Web\\Models\\StudentViewModel.cs",
+              "RelativeDocumentMoniker": "SchoolSystem.Web\\Models\\StudentViewModel.cs",
+              "ToolTip": "D:\\advak\\SchoolSystem\\SchoolSystem.Web\\Models\\StudentViewModel.cs",
+              "RelativeToolTip": "SchoolSystem.Web\\Models\\StudentViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAYAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-13T11:05:35.811Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\advak\\SchoolSystem\\SchoolSystem.Web\\Views\\Student\\Index.cshtml",
+              "RelativeDocumentMoniker": "SchoolSystem.Web\\Views\\Student\\Index.cshtml",
+              "ToolTip": "D:\\advak\\SchoolSystem\\SchoolSystem.Web\\Views\\Student\\Index.cshtml",
+              "RelativeToolTip": "SchoolSystem.Web\\Views\\Student\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-13T10:44:33.93Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "20240820122735_migration1.cs",
+              "DocumentMoniker": "D:\\advak\\SchoolSystem\\SchoolSystem.Infrastructure\\Migrations\\20240820122735_migration1.cs",
+              "RelativeDocumentMoniker": "SchoolSystem.Infrastructure\\Migrations\\20240820122735_migration1.cs",
+              "ToolTip": "D:\\advak\\SchoolSystem\\SchoolSystem.Infrastructure\\Migrations\\20240820122735_migration1.cs",
+              "RelativeToolTip": "SchoolSystem.Infrastructure\\Migrations\\20240820122735_migration1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T12:27:35.155Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\advak\\SchoolSystem\\SchoolSystem.Web\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "SchoolSystem.Web\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\advak\\SchoolSystem\\SchoolSystem.Web\\Properties\\launchSettings.json",
+              "RelativeToolTip": "SchoolSystem.Web\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-14T13:16:11.143Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "20240812125836_InitialMigration.cs",
+              "DocumentMoniker": "D:\\advak\\SchoolSystem\\SchoolSystem.Infrastructure\\Migrations\\20240812125836_InitialMigration.cs",
+              "RelativeDocumentMoniker": "SchoolSystem.Infrastructure\\Migrations\\20240812125836_InitialMigration.cs",
+              "ToolTip": "D:\\advak\\SchoolSystem\\SchoolSystem.Infrastructure\\Migrations\\20240812125836_InitialMigration.cs",
+              "RelativeToolTip": "SchoolSystem.Infrastructure\\Migrations\\20240812125836_InitialMigration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T12:58:36.387Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\advak\\SchoolSystem\\SchoolSystem.Web\\appsettings.json",
+              "RelativeDocumentMoniker": "SchoolSystem.Web\\appsettings.json",
+              "ToolTip": "D:\\advak\\SchoolSystem\\SchoolSystem.Web\\appsettings.json",
+              "RelativeToolTip": "SchoolSystem.Web\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-12T12:37:30.619Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "SchoolDbContext.cs",
+              "DocumentMoniker": "D:\\advak\\SchoolSystem\\SchoolSystem.Infrastructure\\SchoolDbContext.cs",
+              "RelativeDocumentMoniker": "SchoolSystem.Infrastructure\\SchoolDbContext.cs",
+              "ToolTip": "D:\\advak\\SchoolSystem\\SchoolSystem.Infrastructure\\SchoolDbContext.cs",
+              "RelativeToolTip": "SchoolSystem.Infrastructure\\SchoolDbContext.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAA3wA4AAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T12:34:35.696Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "StudentDto.cs",
+              "DocumentMoniker": "D:\\advak\\SchoolSystem\\SchoolSystem.Web\\Models\\StudentDto.cs",
+              "RelativeDocumentMoniker": "SchoolSystem.Web\\Models\\StudentDto.cs",
+              "ToolTip": "D:\\advak\\SchoolSystem\\SchoolSystem.Web\\Models\\StudentDto.cs",
+              "RelativeToolTip": "SchoolSystem.Web\\Models\\StudentDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T12:09:15.982Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "SchoolSystem.Web.csproj",
+              "DocumentMoniker": "D:\\advak\\SchoolSystem\\SchoolSystem.Web\\SchoolSystem.Web.csproj",
+              "RelativeDocumentMoniker": "SchoolSystem.Web\\SchoolSystem.Web.csproj",
+              "ToolTip": "D:\\advak\\SchoolSystem\\SchoolSystem.Web\\SchoolSystem.Web.csproj",
+              "RelativeToolTip": "SchoolSystem.Web\\SchoolSystem.Web.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-11T13:15:13.992Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "SchoolSystem.Infrastructure.csproj",
+              "DocumentMoniker": "D:\\advak\\SchoolSystem\\SchoolSystem.Infrastructure\\SchoolSystem.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "SchoolSystem.Infrastructure\\SchoolSystem.Infrastructure.csproj",
+              "ToolTip": "D:\\advak\\SchoolSystem\\SchoolSystem.Infrastructure\\SchoolSystem.Infrastructure.csproj",
+              "RelativeToolTip": "SchoolSystem.Infrastructure\\SchoolSystem.Infrastructure.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-11T13:14:56.916Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "SchoolSystem.Application.csproj",
+              "DocumentMoniker": "D:\\advak\\SchoolSystem\\SchoolSystem.Application\\SchoolSystem.Application.csproj",
+              "RelativeDocumentMoniker": "SchoolSystem.Application\\SchoolSystem.Application.csproj",
+              "ToolTip": "D:\\advak\\SchoolSystem\\SchoolSystem.Application\\SchoolSystem.Application.csproj",
+              "RelativeToolTip": "SchoolSystem.Application\\SchoolSystem.Application.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-11T13:14:37.71Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
